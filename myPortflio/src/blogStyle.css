@@ -1,7 +1,14 @@
 body {
   font-family: Arial;
   padding: 20px;
-  background: #83a9b8;
+  background: #83a9b8 !important;
+  color: rgb(10, 1, 1) 
+}
+
+/* hover first letter */
+p:hover:first-letter {
+  color: blue;
+  font-size: 80px;
 }
 
 /* Header/Blog Title */
@@ -9,7 +16,12 @@ header {
   padding: 30px;
   font-size: 40px;
   text-align: center;
-  background: rgb(80, 50, 150);
+  background: rgb(89, 89, 90);
+}
+
+/* attempt to change font color on small side */
+main {
+  color: rgb(12, 141, 12) 
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -23,7 +35,7 @@ header {
 .rightcolumn {
   float: left;
   width: 23%;
-  padding-left: 20px;
+  padding-left: 70px;
 }
 
 /* Fake image */
