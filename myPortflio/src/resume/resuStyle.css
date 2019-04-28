@@ -1,0 +1,121 @@
+body {
+    font-family: Arial;
+    padding: 20px;
+    background: white !important;
+    color: rgb(10, 1, 1);
+    width: 99%
+  }
+  
+  /* hover first letter */
+  p:hover:first-letter {
+    color: blue;
+    font-size: 80px;
+  }
+  
+  /* Header/Blog Title */
+  header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background-color: #aaa;
+    display: grid;
+    grid-template-columns: 48% 48%;
+    width: 99%;
+    border-bottom-left-radius: 0%
+  }
+
+  /* make profile pic and h1 side by side in header */
+  .profilepic {
+    grid-column: 1/2;
+    height: 100%;
+    width: 99%;
+
+  }
+
+  .title {
+    grid-column: 2/2
+  }
+  
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn { 
+    float: right;
+    width: 23%;
+  }
+  
+  /* Right column */
+  .rightcolumn {
+    float: right;
+    width: 72%;
+    padding-left: 70px;
+    color: rgb(12, 141, 12)
+  }
+  
+  /* Fake image */
+  img {
+    background-color: rgb(117, 195, 247);
+    width: 99%;
+    padding: 20px;
+  }
+  
+  /* Add a card effect for articles */
+  .card {
+    background-color:  rgb(117, 195, 247);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 10px solid #aaa;
+  }
+  
+  /* My attempt to style my caMel image */
+  #caMel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 20px;
+  }
+  
+  /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
+  
+  /* Extra Small and up (Portrait Phones) */
+  
+  /* Small and up (Landscape Phones) */
+  @media (min-width: 576px) {
+  
+  }
+  
+  /* Medium and up (Tablets) */
+  @media (min-width: 768px) {
+  
+  }
+  
+  /* Large and up (Desktops) */
+  @media (min-width: 992px) {
+  
+  }
+  
+  /* Extra Large and up (Wide Screen Desktops) */
+  @media (min-width: 1200px) {
+  
+  }
