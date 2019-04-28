@@ -8,20 +8,31 @@ body {
   
   /* hover first letter */
   p:hover:first-letter {
-    color: blue;
+    color: white;
     font-size: 80px;
+    text-shadow: 2px 2px black;
   }
   
   /* Header/Blog Title */
   header {
     padding: 30px;
     font-size: 40px;
-    text-align: center;
+    text-align: center center;
     background-color: #aaa;
     display: grid;
     grid-template-columns: 48% 48%;
     width: 99%;
-    border-bottom-left-radius: 0%
+    border-radius: 50%
+  }
+
+  h1 {
+    color: rgb(24, 22, 22);
+
+  }
+
+  span {
+    font: 1em sans-serif;
+    font-size: 50%;
   }
 
   /* make profile pic and h1 side by side in header */
@@ -29,7 +40,7 @@ body {
     grid-column: 1/2;
     height: 100%;
     width: 99%;
-
+    border-radius: 50%;
   }
 
   .title {
@@ -48,7 +59,6 @@ body {
     float: right;
     width: 72%;
     padding-left: 70px;
-    color: rgb(12, 141, 12)
   }
   
   /* Fake image */
@@ -66,28 +76,12 @@ body {
     border-radius: 25px;
     border: 10px solid #aaa;
   }
-  
-  /* My attempt to style my caMel image */
-  #caMel {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    
-  }
+
   /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
-  }
-  
-  /* Footer */
-  footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
   }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
