@@ -65,3 +65,19 @@ button {
   letter-spacing: 16px;
   font-style: italic;
 }
+
+/* Medium and up (Tablets) */
+@media (min-width: 1000px) {
+body {
+  background-image: none;
+}
+button {
+background: black;
+
+}
+button {
+border-radius: 75%;
+}
+
+}
+

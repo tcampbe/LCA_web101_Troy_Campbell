@@ -34,7 +34,13 @@ body {
 
   span {
     font: 1em sans-serif;
-    font-size: 50%;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 80%;
+  }
+
+  span .title {
+    font-size: 85px;
   }
 
   /* make profile pic and h1 side by side in header */
