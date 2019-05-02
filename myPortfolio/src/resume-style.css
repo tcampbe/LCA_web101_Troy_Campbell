@@ -16,7 +16,7 @@ body {
   /* Header/Blog Title */
   header {
     padding: 5%;
-    font-size: 40px;
+    font-size: 150%;
     text-align: center center;
     margin-left: auto;
     margin-right: auto;
@@ -39,21 +39,14 @@ body {
     font-size: 80%;
   }
 
-  span .title {
-    font-size: 85px;
-  }
 
   /* make profile pic and h1 side by side in header */
   .profilepic {
-    grid-column: 1/2;
     height: 100%;
     width: 99%;
     border-radius: 50%;
   }
 
-  .title {
-    grid-column: 2/2
-  }
   
   /* Create two unequal columns that floats next to each other */
   /* Left column */
@@ -93,6 +86,16 @@ body {
     display: table;
     clear: both;
   }
+
+  /* Medium 800-1000px (Tablets) */
+  @media (min-width: 801px) and (max-width: 1000px) {
+    header {
+      font-size: 120%;
+      background-color: rgb(214, 100, 218);
+      text-shadow: 10px 10px 0px #aaa;
+    }
+  
+  }
   
   /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
   @media screen and (max-width: 800px) {
@@ -100,26 +103,13 @@ body {
       width: 95%;
       padding: 0;
     }
+    header {
+      font-size: 80%;
+    }
   }
   
-  /* Extra Small and up (Portrait Phones) */
   
-  /* Small and up (Landscape Phones) */
-  @media (min-width: 576px) {
   
-  }
   
-  /* Medium and up (Tablets) */
-  @media (min-width: 768px) {
   
-  }
   
-  /* Large and up (Desktops) */
-  @media (min-width: 992px) {
-  
-  }
-  
-  /* Extra Large and up (Wide Screen Desktops) */
-  @media (min-width: 1200px) {
-  
-  }
