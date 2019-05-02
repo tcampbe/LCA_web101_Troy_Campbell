@@ -78,7 +78,7 @@ body {
     padding: 2%;
     margin-top: 2%;
     border-radius: 5%;
-    border: 1% solid #aaa;
+    border: 5px solid #aaa;
   }
 
   /* Clear floats after the columns */
