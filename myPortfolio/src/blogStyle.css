@@ -1,6 +1,6 @@
 body {
   font-family: Arial;
-  padding: 20px;
+  padding: 1%;
   background: #83a9b8 !important;
   color: rgb(10, 1, 1) 
 }
@@ -13,10 +13,13 @@ p:hover:first-letter {
 
 /* Header/Blog Title */
 header {
-  padding: 30px;
-  font-size: 40px;
+  padding: 1%;
+  font-size: 200%;
   text-align: center;
   background: rgb(89, 89, 90);
+  width: auto;
+  height: auto;
+
 }
 
 /* attempt to change font color on small side */
@@ -34,22 +37,22 @@ main {
 /* Right column */
 .rightcolumn {
   float: left;
-  width: 23%;
-  padding-left: 70px;
+  width: 25%;
+  padding-left: 2%;
 }
 
-/* Fake image */
+/* image */
 img {
   background-color: #aaa;
   width: 100%;
-  padding: 20px;
+  padding: 1%;
 }
 
 /* Add a card effect for articles */
 .card {
   background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 1%;
+  margin-top: 2%;
 }
 
 /* My attempt to style my caMel image */
@@ -75,50 +78,23 @@ footer {
   margin-top: 20px;
 }
 
+/* Medium 800-1000px (Tablets) */
+@media (min-width: 801px) and (max-width: 1000px) {
+  header {
+    font-size: 120%;
+    background-color: rgb(181, 169, 182);
+    text-shadow: 10px 10px 0px rgb(126, 72, 72);
+  }
+
+}
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn { 
-    width: 100%;
+    width: 95%;
     padding: 0;
   }
-}
-
-/* Extra Small and up (Portrait Phones) */
-
-/* Small and up (Landscape Phones) */
-@media (min-width: 576px) {
-
-}
-
-/* Medium and up (Tablets) */
-@media (min-width: 768px) {
-
-}
-
-/* Large and up (Desktops) */
-@media (min-width: 992px) {
-
-}
-
-/* Extra Large and up (Wide Screen Desktops) */
-@media (min-width: 1200px) {
-
-}
-
-/* possibly make button appear on hover */
-.button {
-  display: none;
-}
-
-img:hover + .button, .button:hover {
-  display: inline-block;
-}
-
-/* possible overlap float */
-#left {
-  width: 250px;
-  border: 1px solid #ccc;
-  display: inline;
-  float: left;
-  margin-right:-104px;
+  header {
+    font-size: 80%;
+  }
 }

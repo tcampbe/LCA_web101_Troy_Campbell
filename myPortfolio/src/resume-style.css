@@ -92,7 +92,7 @@ body {
     header {
       font-size: 120%;
       background-color: rgb(214, 100, 218);
-      text-shadow: 10px 10px 0px #aaa;
+      text-shadow: 10px 10px 0px rgb(88, 88, 88);
     }
   
   }
