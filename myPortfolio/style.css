@@ -100,3 +100,52 @@ button {
   letter-spacing: 16px;
   font-style: italic;
 }
+
+/* phone size below 800 */
+@media (max-width: 1223px) {
+  body {
+  text-align: center;
+  }
+  
+  .logo {
+  height: 10%;
+  }
+  
+  .tlogo {
+    height: 20%;
+    width: 20%;
+  }
+
+  .has-border {
+    color: white
+  }
+  
+  #profile-pic {
+    width: 25%;
+    height: 25%;
+    margin: 3% auto;
+  }
+}
+
+/* Medium (Tablets) 800 to 1224 */
+@media (min-width: 800px max-width: 1223px) {
+  body {
+    background-image: none;
+  }
+  button {
+  background: black;
+
+  }
+  button {
+  border-radius: 75%;
+  }
+
+  .row {
+    box-shadow: 3px 3px 5px 6px rgb(14, 12, 12); 
+
+    background:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 0%;
+
+  }
+}

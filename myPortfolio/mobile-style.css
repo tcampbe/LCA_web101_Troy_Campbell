@@ -27,6 +27,7 @@ body {
   border: 2px solid whitesmoke;
   background: blue;
   padding: 10px; 
+  color: white
 }
 
 #profile-pic {
@@ -66,25 +67,25 @@ button {
   font-style: italic;
 }
 
-/* Medium and up (Tablets) */
+/* Medium (Tablets) 800 to 1224 */
 @media (min-width: 800px) {
-body {
-  background-image: none;
+  body {
+    background-image: none;
+  }
+  button {
+  background: black ;
+
+  }
+  button {
+  border-radius: 75%;
+  }
+
+  .row {
+    box-shadow: 3px 3px 5px 6px rgb(14, 12, 12); 
+
+    background:rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 0%;
+
+  }
 }
-button {
-background: black;
-
-}
-button {
-border-radius: 75%;
-}
-
-.row {
-  box-shadow:         3px 3px 5px 6px rgb(14, 12, 12); 
-
-  background:rgba(0, 0, 0, 0.4);
-  width: 100%;
-  height: 0%;
-
-}
-
