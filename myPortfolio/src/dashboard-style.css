@@ -1,0 +1,19 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+/* Assign grid instructions grid container, mobile-first (hide the sidenav) */
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 50px 1fr 50px;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+  height: 100vh;
+}
