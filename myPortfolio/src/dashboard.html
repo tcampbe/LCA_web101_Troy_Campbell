@@ -14,67 +14,90 @@
         <title>Portfolio</title>
     </head>
     <body>
-        
-    
+
         <div class="grid-container">
-            <div class="menu-icon">
-                <i class="fas fa-bars header__menu"></i>
-            </div>
+
+            <header class="header">
+                <div class="header__search">Search...</div>
+                <div class="header__avatar">Troy Campbell</div>
+            </header>
+
+            <aside class="calculator">
+
+                <!-- the input -->
+                <input type="number">
+
+                <!-- the buttons -->
+                <div class="calculator-buttons">
+                    <!-- buttons go here -->
+                </div>
+
+                <div class="calculator-buttons">
+                    <button class="calc-button is-clear">C</button>
+                    <button class="calc-button">÷</button>
+                    
+                    <button class="calc-button">7</button>
+                    <button class="calc-button">8</button>
+                    <button class="calc-button">9</button>
+                    <button class="calc-button">×</button>
+                    
+                    <button class="calc-button">4</button>
+                    <button class="calc-button">5</button>
+                    <button class="calc-button">6</button>
+                    <button class="calc-button">−</button>
+                    
+                    <button class="calc-button">1</button>
+                    <button class="calc-button">2</button>
+                    <button class="calc-button">3</button>
+                    <button class="calc-button">&plus;</button>
+                    
+                    <button class="calc-button is-zero">0</button>
+                    <button class="calc-button is-equals">&equals;</button>
+                </div>
+            </aside>
+
+            <main class="main">
+                <div class="main-header">
+                    <div class="main-header__heading">Lang may your lum reek. (Long may your chimney smoke.)</div>
+                    <div class="main-header__updates"> Welcome! </div>
+                </div>
             
-                <header class="header">
-                    <div class="header__search">Search...</div>
-                    <div class="header__avatar">Your face</div>
-                </header>
+                <div class="main-overview">
+                    <div class="overviewcard">
+                    <div class="overviewcard__icon time"> <time>10:00 am</time> </div>
+                    <div class="overviewcard__info date"> <!-- <input type="datetime-local"> --> Wed March 24th 1969 </div>
+                    </div>
+                    <div class="overviewcard">
+                    <div class="overviewcard__icon">Overview</div>
+                    <div class="overviewcard__info">Card</div>
+                    </div>
+                    <div class="overviewcard">
+                    <div class="overviewcard__icon">Overview</div>
+                    <div class="overviewcard__info">Card</div>
+                    </div>
+                    <div class="overviewcard">
+                    <div class="overviewcard__icon">Overview</div>
+                    <div class="overviewcard__info">Card</div>
+                    </div>
+                </div>
             
-                <aside class="sidenav">
-                    <div class="sidenav__close-icon">
-                    <i class="fas fa-times sidenav__brand-close"></i>
+                <div class="main-cards">
+                    <div class="card">Crooked Grin!</div>
+                    <div class="card todo"> 
+                        <p class="todo_title">To Do</p>
+                        <p class="todo_input">____________________</p>
+                        <p class="todo_one">Complete LCA</p>
+                        <p class="todo_two">Find Gainful Employment</p>
+                        <p class="todo_three">Improve Life</p>
                     </div>
-                    <ul class="sidenav__list">
-                    <li class="sidenav__list-item">Item One</li>
-                    <li class="sidenav__list-item">Item Two</li>
-                    <li class="sidenav__list-item">Item Three</li>
-                    <li class="sidenav__list-item">Item Four</li>
-                    <li class="sidenav__list-item">Item Five</li>
-                    </ul>
-                </aside>
-                
-                <main class="main">
-                    <div class="main-header">
-                        <div class="main-header__heading">Hello User</div>
-                        <div class="main-header__updates">Recent Items</div>
-                    </div>
-                
-                    <div class="main-overview">
-                    <div class="overviewcard">
-                        <div class="overviewcard__icon">Overview</div>
-                        <div class="overviewcard__info">Card</div>
-                    </div>
-                    <div class="overviewcard">
-                        <div class="overviewcard__icon">Overview</div>
-                        <div class="overviewcard__info">Card</div>
-                    </div>
-                    <div class="overviewcard">
-                        <div class="overviewcard__icon">Overview</div>
-                        <div class="overviewcard__info">Card</div>
-                    </div>
-                        <div class="overviewcard">
-                            <div class="overviewcard__icon">Overview</div>
-                            <div class="overviewcard__info">Card</div>
-                        </div>
-                    </div>
-                
-                    <div class="main-cards">
                     <div class="card">Card</div>
-                    <div class="card">Card</div>
-                    <div class="card">Card</div>
-                </main>
-            </div>
+                </div>
+            </main>
             
             <footer class="footer">
-                <div class="footer__title">TSC 2019</div>
-                <div class="footer__signature">Crooked Smile </div>
+                <div class="footer_logo">TSC</div>
+                <div class="footer_signature">(;</div>
             </footer>
+
         </div>
-    </body>
-</html>    
+    </body>    

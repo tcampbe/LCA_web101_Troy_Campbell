@@ -1,0 +1,25 @@
+body {
+    font-weight: bold;
+    text-align: center;
+    margin: 40px;
+    font-size: 3rem;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: maroon;
+}
+
+a:hover {
+    color: darkblue
+}
+
+a:active {
+    color: slategrey
+}
+
+
+
