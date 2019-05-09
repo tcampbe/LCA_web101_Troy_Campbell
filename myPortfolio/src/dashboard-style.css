@@ -5,8 +5,8 @@
 /* add some spacing */
 body          {
   background: #F6F6F6;
-  padding-bottom: 30px;
-  padding-top: 30px;
+  padding-bottom: ;
+  padding-top: ;
 }
 
 /* Assign grid instructions to grid container, mobile-first (no side grid) */
@@ -19,7 +19,6 @@ body          {
     'main'
     'footer'
     'calculator';
-  height: 100vh;
 }
 
 /* Give the header child element its grid name */
