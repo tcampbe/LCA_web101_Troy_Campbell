@@ -129,7 +129,6 @@ body          {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
   background-color: #d3d3;
 }
 
@@ -170,6 +169,7 @@ body          {
   height: 485px;
   background-repeat: no-repeat;
   background-image: url("camelGrin.jpg");
+  background-blend-mode: lighten;
   background-position: bottom;
   font-size: 2rem;
 }
@@ -251,6 +251,9 @@ body          {
 
 /* Medium screens breakpoint (1050px) */
 @media only screen and (min-width: 65.625em) {
+  .main-overview {
+    grid-template-columns: auto auto;
+  }
   /* Break out main cards into two columns */
   .main-cards {
     column-count: 2;
