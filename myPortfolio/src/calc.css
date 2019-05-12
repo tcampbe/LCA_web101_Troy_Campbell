@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+.calculator {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.column {
+    flex-basis: 100%;
+    padding: .3%;
+}
+
+.result {
+    width: 8.5%;
+    outline-style: solid;
+    text-align: right;
+}
+
+.is-clear {
+    width: 6.5%;
+    background-color: blue;
+}
+
+.is-zero {
+    width: 6.5%;
+}
+
+.is-equals {
+    background-color: green;
+}
