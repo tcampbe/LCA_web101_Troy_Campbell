@@ -12,7 +12,7 @@ body {
 }
 
 .header {
-  background-image: url("nasa.jpg");
+  background-image: url("../images/nasa.jpg");
   background-size: cover;
   background-color: black;
   color: whitesmoke;

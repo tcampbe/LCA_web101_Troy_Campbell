@@ -35,7 +35,7 @@ body          {
 .calculator   {
   grid-area: calculator;
   background-color: #adcde2;
-  background-image: url("stars.jpeg");
+  background-image: url("../images/stars.jpg");
   max-width: 280px;
   max-height: 50; /* does it need a max height */
   margin: 0 auto;
@@ -103,7 +103,7 @@ body          {
 .main {
   grid-area: main;
   background-color: #8fd4d9;
-  background-image: url("../beach.jpg");
+  background-image: url("/images/beach.jpg");
 }
 
 .main-header {
@@ -168,7 +168,7 @@ body          {
 .card:first-child {
   height: 485px;
   background-repeat: no-repeat;
-  background-image: url("camelGrin.jpg");
+  background-image: url("../images/camelGrin.jpg");
   background-blend-mode: lighten;
   background-position: bottom;
   font-size: 2rem;
