@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    background: firebrick;
+    background-image: url(./floor.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90%;
+}
+
+.title {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: whitesmoke;
+}
+
+.link {
+    padding: 1%;
+}
+
+.name {
+    font-size: 99%;
+    text-align: center;
+}
+
+.links {
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+}
+
+.mainBarber {
+    display: grid;
+    
+    grid-template-areas:
+        'services'
+        'ad'
+    }
+
+.ad{
+    grid-area: ad;
+    text-align: center;
+    color: black;
+    list-style-image: url(./mustache.jpg);
+    list-style-position: inside;
+    line-height: 150%;
+}
+
+.services {
+    grid-area: services;
+    display: grid;
+    grid-template-areas:
+        'cuts wax'
+        'shaves shaves'
+}
+
+.shaves {
+    grid-area: shaves;
+    background-image: url(./razor.JPG);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 2%;
+    padding: 0 1% 0 25%;
+    width: 90%;
+}
+
+.cuts {
+    grid-area: cuts;
+    text-align: center;
+}
+
+.wax {
+    grid-area: wax;
+    text-align: center;
+    }
+
+.contact {
+    background-color: white;
+    display: flex;
+    flex-wrap: row wrap;
+    justify-content: space-between;
+    padding: 1%;
+}
+
+
+@media only screen and (min-width: 46.875em) {
+
+}
+
+@media only screen and (min-width: 65.625em) {
+    
+}
