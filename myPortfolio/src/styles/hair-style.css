@@ -4,7 +4,7 @@
 
 body {
     background: firebrick;
-    background-image: url(./floor.jpg);
+    background-image: url(../images/floor.jpg);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 90%;
@@ -45,7 +45,7 @@ body {
     grid-area: ad;
     text-align: center;
     color: black;
-    list-style-image: url(./mustache.jpg);
+    list-style-image: url(../images/mustache.jpg);
     list-style-position: inside;
     line-height: 150%;
 }
@@ -60,7 +60,7 @@ body {
 
 .shaves {
     grid-area: shaves;
-    background-image: url(./razor.JPG);
+    background-image: url(../images/razor.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     text-align: center;
