@@ -2,7 +2,7 @@ body {
   font-family: Arial;
   padding: 1%;
   background: #83a9b8 !important;
-  color: rgb(10, 1, 1) 
+  color: rgb(10, 1, 1);
 }
 
 /* hover first letter */
@@ -24,7 +24,7 @@ header {
 
 /* attempt to change font color on small side */
 main {
-  color: rgb(12, 141, 12) 
+  color: rgb(12, 141, 12);
 }
 
 /* Create two unequal columns that floats next to each other */
@@ -65,7 +65,6 @@ img {
 }
 /* Clear floats after the columns */
 .row:after {
-  content: "";
   display: table;
   clear: both;
 }
