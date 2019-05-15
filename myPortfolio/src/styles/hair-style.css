@@ -10,6 +10,11 @@ body {
     font-size: 90%;
 }
 
+h2 {
+    color: firebrick;
+    font-size: 120%;
+}
+
 .title {
     display: flex;
     flex-wrap: row wrap;
@@ -25,6 +30,8 @@ body {
 .name {
     font-size: 99%;
     text-align: center;
+    font-size: 110%;
+    color: red;
 }
 
 .links {
@@ -45,8 +52,8 @@ body {
     grid-area: ad;
     text-align: center;
     color: black;
-    list-style-image: url(../images/mustache.jpg);
-    list-style-position: inside;
+    list-style: circle inside url(../images/mustache.jpg);
+
     line-height: 150%;
 }
 
@@ -96,5 +103,110 @@ body {
 }
 
 @media only screen and (min-width: 65.625em) {
+    body {
+        background-image: url(../images/haircut.jpg);
+        background-size: contain;
+        background-blend-mode: lighten;
+        color: royalblue;
+    }
+
+    .title {
+        background-image: url(../images/mustache.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 16%;
+    }
+
+    .name {
+        color: black;
+        padding: .5% 2% .5% 2%;
+        background-color: rgb(252, 104, 99);
+        font-size: 200%;
+        font-family: cursive;
+        text-decoration: wavy underline;
+        width: 20%;
+    }
+
+    .services {
+        padding-bottom: 2rem;
+        grid-template-areas:
+            'shaves shaves'
+            'cuts wax'
+    }
+
+    .cuts {
+        color: yellow;
+        font-size: 270%;
+    }
+
+    .cuts h2 {
+        color: midnightblue;
+    }
+
+    .wax {
+        color:yellow;
+        font-size: 245%;
+    }
+
+    .wax h2 {
+        color: olivedrab;
+        font-size: 160%;
+    }
+
+    .shaves {
+        color: black;
+        background-color:slategray;
+        font-size: 190%;
+        border: 1rem solid black;
+    }
+
+    .ad {
+        list-style-image: none;
+        list-style: none;
+        text-align: unset;
+        margin: 0 0 0 40%;
+    }
+
+    .ad li {
+        font-size: 200%;
+        line-height: 300%;
+    }
+
+    .ad h2 {
+        color: blue;
+        font-size: 250%;
+    }
+
+    .address {
+        background-image: url(../images/mustache.jpg);
+        background-repeat: no-repeat;
+        background-position: right top;
+        background-size: 20%;
+        width: 25%;
+        font-size: 200%;
+    }
+
+    .email {
+        background-image: url(../images/mustache.jpg);
+        background-repeat: no-repeat;
+        background-position: left bottom;
+        background-size: 30%;
+        text-align: right;
+        width: 25%;
+        font-size: 150%;
+    }
+
+    .invite {
+        background-image: url(../images/mustache.jpg);
+        background-repeat: no-repeat;
+        background-position: left;
+        background-size: 15%;
+        text-align: right;
+        width: 25%;
+        font-size: 150%;
+    }
+
+    
+
     
 }
