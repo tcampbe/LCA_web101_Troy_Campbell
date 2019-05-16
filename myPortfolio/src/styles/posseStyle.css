@@ -1,0 +1,25 @@
+body {
+    background-color: rgba(0, 0, 255, 0.6);
+}
+
+header {
+    font-size: 500%;
+    color: navy;
+    text-align: center;
+}
+
+main {
+    background: url(../images/mustaches.jpg) center no-repeat, url(../images/mustaches2.jpg) right bottom no-repeat, url(../images/haircut.jpg) left top no-repeat;
+    background-blend-mode: lighten;
+    display: block;
+    text-align: center;
+    padding-top: 5%;
+
+}
+
+button {
+    font-size: 400%;
+    color: blue;
+    margin: 2%;
+
+}

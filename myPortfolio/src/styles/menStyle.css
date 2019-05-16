@@ -1,0 +1,23 @@
+body {
+   background-color: rgba(0, 255, 0, 0.2);
+   text-align: center;
+
+}
+
+header {
+    font-size: 200%;
+    padding: 4%;
+}
+
+img {
+    height: 20rem;
+    width: 20rem;
+    
+}
+
+main {
+    display: grid;
+    grid-template: auto / auto auto auto;
+    grid-gap: .5rem;
+    padding: 0;
+}

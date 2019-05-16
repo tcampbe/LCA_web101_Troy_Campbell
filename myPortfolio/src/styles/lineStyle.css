@@ -1,0 +1,12 @@
+body {
+    text-align: center;
+    font-size: 600%;
+    padding: 10%;
+    color: red;
+    background-image: url(../images/haircut.jpg);
+    background-size: cover;
+}
+
+button {
+    font-size: 100%;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: yellow;
+    background-image: url(../images/haircut.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: lighten;
+}
+
+header {
+    font-size: 300%;
+    color: firebrick;
+    background-color: aliceblue;
+    margin: 2%;
+    padding: 3%;
+    text-align: center;
+    }
+
+main {
+    font-size: 150%;
+    color: navy;
+    margin: 4%;
+    }
+
+article {
+    margin: 4%;
+}
+

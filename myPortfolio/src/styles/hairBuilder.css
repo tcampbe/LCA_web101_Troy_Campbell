@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    padding-top: 20%;
+}
+
+h1 {
+    font-size: 200%;
+    color: royalblue;
+    padding-bottom: 3%;
+}
+
+li {
+    font-size: 110%;
+    padding-bottom: .5%;
+    color: navy;
+}
