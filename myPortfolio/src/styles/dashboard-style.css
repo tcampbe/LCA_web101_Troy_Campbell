@@ -2,14 +2,10 @@
   box-sizing: border-box;
 }
 
-/* add some spacing */
 body          {
   background: #F6F6F6;
-  padding-bottom: ;
-  padding-top: ;
 }
 
-/* Assign grid instructions to grid container, mobile-first (no side grid) */
 .grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -21,7 +17,6 @@ body          {
     'calculator';
 }
 
-/* Give the header child element its grid name */
 .header {
   grid-area: header;
   display: flex;
@@ -31,7 +26,6 @@ body          {
   background-color: #648ca6;
 }
 
-/* name calculator child /  limit the width and center */
 .calculator   {
   grid-area: calculator;
   background-color: #adcde2;
@@ -54,12 +48,10 @@ body          {
 }
 
 .calculator input   {
-  /* reset basic form styles */
-  background: none;
+  background: white;
   border: none;
   box-shadow: none;
   outline: none;
-
   padding: 10px;
   width: 100%;
   border-bottom: 2px solid #111;
@@ -70,32 +62,21 @@ body          {
 }
 
 .calculator-buttons {
-  /* small spacing within container */
   padding: 20px;
-
-  /* the grid stuff! */
   display: grid;
-
-  /* create 4 columns */
   grid-template-columns: repeat(4, 1fr);
-
-  /* add the grid gap */
   grid-gap: 15px;
 }
 
-/* span across 3 columns */
 .is-zero {
   grid-column: span 3;
 }
 
-/* span across 3 columns / set color for button lookalike */
 .is-clear   {
   grid-column: span 3;
-  /* go blue */
   background: #3572DB;
 }
 
-/* set color for button lookalike */
 .is-equals {
   background: #28D060;
 }
@@ -104,6 +85,7 @@ body          {
   grid-area: main;
   background-color: #8fd4d9;
   background-image: url("/images/beach.jpg");
+  background-blend-mode: lighten;
 }
 
 .main-header {
@@ -113,7 +95,7 @@ body          {
   padding: 20px;
   height: 150px;
   background-color: #c8f0f5;
-  color: rgb(2, 48, 94);
+  color: rgba(2, 48, 94, 0.4);
   font-size: 1.5em;
 }
 
@@ -129,7 +111,7 @@ body          {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #d3d3;
+  background-color: rgba(56, 5, 56, 0.5);
 }
 
 .time {
@@ -164,7 +146,6 @@ body          {
   box-sizing: border-box;
 }
 
-/* Force varying heights to simulate dynamic content */
 .card:first-child {
   height: 485px;
   background-repeat: no-repeat;
@@ -176,10 +157,12 @@ body          {
 
 .card:nth-child(2) {
   height: 200px;
+  background-color: whitesmoke;
 }
 
 .card:nth-child(3) {
   height: 265px;
+  background-color: khaki;
 }
 
 .todo {
@@ -200,7 +183,6 @@ body          {
 
 .todo_title {
   grid-area: todo_title;
-  font-style: bold;
   margin: -1%;
 }
 
