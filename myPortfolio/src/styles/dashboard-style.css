@@ -217,9 +217,7 @@ body          {
   background-color: #648ca6;
 }
 
-/* Non-mobile styles, 750px breakpoint */
-@media only screen and (min-width: 46.875em) {
-  /* Show the calculator on side */
+@media (min-width: 600px) {
   .grid-container {
     grid-template-columns: 250px 1fr;
     grid-template-areas:
@@ -229,15 +227,11 @@ body          {
   }
 }
 
-
-
-
-/* Medium screens breakpoint (1050px) */
-@media only screen and (min-width: 65.625em) {
+@media (min-width: 1000px) {
   .main-overview {
     grid-template-columns: auto auto;
   }
-  /* Break out main cards into two columns */
+
   .main-cards {
     column-count: 2;
   }

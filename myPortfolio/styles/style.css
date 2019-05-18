@@ -63,7 +63,6 @@ button {
     font-style: italic;
 }
 
-/* Medium (Tablets) 800 to 1224 */
 @media (min-width: 800px) {
     body {
       background-image: none;
@@ -77,15 +76,12 @@ button {
   
     .row {
         box-shadow: 3px 3px 5px 6px rgb(14, 12, 12); 
-  
         background:rgba(0, 0, 0, 0.4);
         width: 100%;
         height: 0%;
-  
     }
 }
 
-/* Large (laptop up) over 1000 */
 @media (min-width: 1000px) {
     body {
         background-image: url("/images/beach.jpg");
