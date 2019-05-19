@@ -51,7 +51,7 @@ button {
     width: 70%;
     height: 15%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 200%;
+    font-size: .7em;
     font-weight: bold;
     border-radius: 25px;
     border-color: rgb(65, 123, 189);
