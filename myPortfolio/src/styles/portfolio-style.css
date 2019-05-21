@@ -1,25 +1,142 @@
-body {
-    font-weight: bold;
-    text-align: center;
-    margin: 40px;
-    font-size: 3rem;
+* {
+    box-sizing: border-box;
+    position: initial;
 }
 
-a:link {
+body {
+    background: powderblue;
+    font-weight: bold;
+    text-align: center;
+    margin: 2%;
+    font-size: 150%;
+}
+
+.banner {
+    background: url(/src/images/code.jpg) center;
+    background-repeat: no-repeat;
+    margin: 2%;
+    padding-bottom: 4%;
+    padding-top: 1%;
+}
+
+h1 {
     color: black;
+    background: whitesmoke;
+    mix-blend-mode: lighten;
+    font-size: 1.5em;
+}
+
+h2 {
+    color: black;
+    background:rgb(244, 220, 211);
+    mix-blend-mode: screen;
+}
+
+main {
+    background: url(/src/images/codescreen.jpg);
+    background-size: contain;
+}
+
+object {
+    display: none;
 }
 
 a:visited {
-    color: maroon;
+    color: lawngreen;
 }
 
-a:hover {
-    color: darkblue
+.funvideo {
+    max-width: 100%;
+    height: 70vh;
+    position: relative;
 }
 
-a:active {
-    color: slategrey
+.funvideo iframe {
+    margin: 0 auto;
+    display: block;
+    width: 60%;
+    height: 60%;
 }
 
+.caption {
+    width: 100%;
+    height: 30%;
+    color: aliceblue;
+    text-align: center;
+}
+
+input {
+    name: tomato;
+}
+
+form {
+    color: yellow;
+    
+}
+
+@media (min-width: 600px) {
+    .banner {
+        background-size: cover;
+
+    }
+
+    h1 {
+        font-size: 5em;
+    }
+
+    main {
+        width: 99%;
+    }
+
+    object {
+        display: initial;
+        width: 60%;
+        height: 30vh;
+
+    }
+}
+
+@media (min-width: 1100px) {
+    object {
+        width: 95%;
+    }
+
+    main {
+        padding-top: 3em;
+        display: grid;
+        grid-gap: 1em;
+        grid-template-areas:
+            'dashboard hair hair'
+            'nasa nasa nasa'
+            'funvideo code form'
+    }
+
+    .hair {
+        grid-area: hair;
+    }
+    .dashboard {
+        grid-area: dashboard;
+    }
+    .nasa {
+        grid-area: nasa;
+    }
+    .form {
+        font-size: 120%;
+        grid-area: form;
+    }
+    .funvideo {
+        grid-area: funvideo;
+    }
+    .code {
+        grid-area: code;
+    }
+
+    input {
+        font-size: 60%;
+        height: 3em;
+    }
+
+
+}
 
 

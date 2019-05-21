@@ -6,21 +6,65 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript, Web, Developer, Programming">
         <meta name="author" content="Troy Campbell">
-
         <link rel="stylesheet" href="/styles/reset.css"/>
-
         <link rel="stylesheet" href="./styles/portfolio-style.css"> 
-
         <title>Portfolio</title>
     </head>
     <body>
-        <head>
-
-        </head>
+        <header class="banner">
+            <h1>PORTFOLIO</h1>
+            <h2>Creations by Troy Campbell</H2>
+        </header>
         <main>
-            <a href="dashboard.html">Dashboard</a>
-            <a href="nasa.html">NASA</a>
-            <a href="hair.html">Hair</a>
+            <div class="preview dashboard"> 
+                <object data="/src/dashboard.html" type="text/html"></object>
+                    <br>
+                <a href="dashboard.html">Dashboard</a>
+            </div>
+            <div class="preview nasa"> 
+                <object data="/src/nasa.html" type="text/html"></object>
+                    <br>
+                <a href="nasa.html">NASA</a>
+            </div>
+            <div class="preview hair"> 
+                <object data="/src/hair.html" type="text/html"></object>
+                    <br>
+                <a href="hair.html">Hair</a>
+            </div>
+            <div class="funvideo">
+                <iframe width="99%" height="315" 
+                    src="https://www.youtube.com/embed/mFCCFS_lhA8" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen>
+                </iframe>
+                <figcaption class="caption">Learning to Computer</figcaption>
+            </div>
+            <div class="code">
+                <!--<video src="/src/videos/coding.mp4"></video>-->
+            </div>
+            <div class="form">
+                <form action="">
+                    Email:
+                    <br>
+                    <input type="text" name="email" value="email">
+                    <br>
+                    Name:
+                    <br>
+                    <input type="text" name="name" value="name">
+                    <br>
+                    Address:
+                    <br>
+                    <input type="text" name="location" value="location">
+                    <br>
+                    Message:
+                    <br>
+                    <input type="text" name="message" value="message">
+                    <br>
+                    <input type="button" value="reset">
+                    <input type="button" value="enter">
+                </form>
+            </div>
             
         </main>
     </body>
