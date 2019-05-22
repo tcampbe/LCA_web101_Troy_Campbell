@@ -12,7 +12,7 @@ body {
 }
 
 .banner {
-    background: url(/src/images/code.jpg) center;
+    background: url(../images/code.jpg) center;
     background-repeat: no-repeat;
     margin: 2%;
     padding-bottom: 4%;
