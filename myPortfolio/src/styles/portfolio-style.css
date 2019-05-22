@@ -74,6 +74,11 @@ form {
     
 }
 
+video {
+    width: 60%;
+    height: 80%;
+}
+
 @media (min-width: 600px) {
     .banner {
         background-size: cover;
