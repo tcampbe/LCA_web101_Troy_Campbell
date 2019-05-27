@@ -1,0 +1,120 @@
+body {
+    font-size: 2em;
+    background: lightgray url(../images/avatar.JPG) no-repeat center center fixed;
+    background-size: contain;
+
+}
+
+header {
+    text-align: center;
+}
+
+strong {
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+b {
+    font-weight: bolder;
+    font-size: 175%;
+}
+
+.contacts {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+
+}
+
+.phone {
+    margin: 1em;
+    padding: 3em;
+    background-image: url(../images/phone.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center top;
+    animation: phone 4s linear 1s 2 alternate forwards;
+
+}
+
+@keyframes phone {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+i {
+    font-style: italic;
+    font-size: 90%;
+}
+
+u {
+    text-decoration: underline;
+    font-size: 105%;
+}
+
+em {
+    font-style: italic;
+    font-size: 95%;
+}
+
+sup {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+sub {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+kbd {
+    font-family: monospace;
+    font-size: larger;
+}
+
+.other {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.extra {
+    margin: .5em;
+    padding: .5em;
+
+}
+
+@media (min-width: 800px) {
+    .contacts {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    }
+
+    .a {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .b {
+        grid-area: 1 / 3 / 2 / 4;
+    }
+
+    .c {
+        grid-area: 2 / 1 / 3 / 2;
+    }
+
+    .d {
+        grid-area: 2 / 3 / 3 / 4;
+    }
+
+    .e {
+        grid-area: 3 / 1 / 4 / 2;
+    }
+
+    .f {
+        grid-area: 3 / 3 / 4 / 4;
+    }
+}
