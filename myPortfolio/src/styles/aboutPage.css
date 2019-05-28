@@ -1,0 +1,172 @@
+body {
+    margin: .25em;
+}
+header {
+    background: khaki;
+}
+
+.tabs {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+li {
+    list-style-type: none;
+    flex-grow: 1;
+    min-width: 5%;
+    text-align: center;
+    border: .5em solid khaki;
+    border-left: .75em solid white;
+    border-bottom: 1px solid black;
+}
+
+li a {
+    background: khaki;
+    border-left: 3px solid black; 
+    border-top: 3px solid black;
+    border-bottom: none;
+}
+
+
+.content {
+    background: khaki;
+    height: 70vh;
+    margin-top: none;
+    margin-bottom: none;
+}
+
+.philosophy {
+    font-size: 75%;
+}
+
+.about {
+    background: khaki url(../images/avatar.JPG);
+    background-repeat: no-repeat;
+    background-size: 38vh;
+    background-position: bottom;
+}
+
+.about p {
+    background: khaki;
+}
+
+.about pre {
+    background: khaki;
+}
+
+.eccentricities {
+    font-size: 95%;
+}
+
+.distinctions {
+    font-size: 90%;
+}
+
+.experience {
+    font-size: 50%;
+}
+
+table, th, td {
+    border: 1px solid black;
+    text-align: left;
+}
+
+table {
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+th{
+    background: lemonchiffon;
+}
+
+tr:nth-child(even) {
+    background: lightblue;
+}
+
+tr:nth-child(odd) {
+    background: lightslategray;
+}
+
+.family {
+    font-size: 65%;
+}
+
+.history {
+    font-size: 55%;
+}
+
+.skills {
+    font-size: 80%;
+}
+
+p {
+    background: white;
+    border: 1em solid khaki;
+    border-top: none;
+    border-bottom: none;
+}
+
+pre {
+    background: white;
+    height: 1em;
+    border-left: 1em solid khaki;
+    border-right: 1em solid khaki;
+}
+
+.links {
+    display: flex;
+    flex-flow: wrap;
+    background: black;
+    line-height: 400%;
+    justify-content: space-between;
+}
+
+.extra {
+    font-size: 200%;
+}
+
+address a {
+    color: ghostwhite;
+}
+
+@media (min-width: 400px) {
+    .eccentricities {
+        font-size: 73%;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 250%;
+    }
+    .content {
+        height: 80vh;
+    }
+    .philosophy {
+        font-size: 80%;
+    }
+    .eccentricities {
+        font-size: 80%;
+    }
+    
+}
+
+@media (min-width: 1000px) {
+    p {
+        background: lightblue;
+    }
+
+    pre {
+        background: lightblue;
+    }
+    .distinctions {
+        font-size: 80%;
+    }
+
+    .experience {
+        font-size: 45%;
+    }
+}
