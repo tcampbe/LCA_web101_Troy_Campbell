@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript, Web, Developer, Programming">
     <meta name="author" content="Troy Campbell">
+    <link rel="stylesheet" href="src/styles/animate.css">
     <link rel="stylesheet" href="./styles/reset.css"/>
     <link rel="stylesheet" href="./styles/style.css"> 
     <title>My Portfolio</title>
@@ -18,16 +19,17 @@
                   <img src="./images/tLogo.jpg" alt="logo" class="tlogo">
                 </div>
               </div>
-                <a href="src/resume.html" class="has-border">Resume</a>
-                <a href="src/aboutPage.html" class="has-border">About Me</a>
-                <a href="src/blog.html" class="has-border">My Blog</a>
-                <a href="src/contactPage.html" class="has-border">Contact Me</a>
+                <a href="src/resume.html" class="has-border animated tada infinite">Resume</a>
+                <a href="src/aboutPage.html" class="has-border animated tada infinite">About Me</a>
+                <a href="src/blog.html" class="has-border animated tada infinite">My Blog</a>
+                <a href="src/contactPage.html" class="has-border animated tada infinite">Contact Me</a>
             </nav>
         </header>
         <main>
           <img src="./images/myProfilePic.jpg" id="profile-pic" alt="Headshot of Me">
-          <h1>Troy Campbell</h1>
+          <h1 class="animated slideInLeft">Troy Campbell</h1>
           <h2>Student of Web Development.</h2>
+          <p class="animated rotateIn">HOWDY</p>
           <button id="portfolio" onclick="window.location.href='src/portfolio.html';">PORTFOLIO</button>
         </main>
   </body>
