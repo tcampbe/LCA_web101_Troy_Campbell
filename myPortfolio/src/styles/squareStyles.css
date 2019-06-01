@@ -1,0 +1,114 @@
+body {
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+main {
+    display: inline-block;
+    margin: auto;
+
+}
+
+.sqr {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.one {
+    background-color: black;
+}
+.two {
+    background-color: blue;
+}
+.three {
+    background-color: green;
+}
+.four {
+    background-color: yellow;
+}
+.five {
+    background-color: red;
+}
+.six {
+    background-color: orange;
+}
+.seven {
+    background-color: lightslategray;
+}
+.eight {
+    background-color: lightblue;
+}
+.nine {
+    background-color: lightseagreen;
+}
+.ten {
+    background-color: darkkhaki;
+}
+.eleven {
+    background-color: pink;
+}
+.twelve {
+    background-color: white;
+}
+
+.go {
+    width: 100px;
+    margin: auto;
+}
+
+.large { 
+    animation: large 5s ease-in-out .2s 1 forwards;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.go:hover .large { 
+    animation-play-state: running;
+
+}
+/* name duration timing delay count direction */
+
+@keyframes large {
+    0% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(1); 
+    }
+    20% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(2); 
+    }
+    100% {
+        left:500px; top:0px;
+        transform: rotate(360deg) scale(2); 
+    }
+}
+
+.small { 
+    animation: small 3s ease-in-out .2s 1 forwards;
+    animation-play-state: paused;
+    animation-fill-mode: forwards;
+}
+
+.go:hover .small { 
+    animation-play-state: running;
+}
+
+/* name duration timing delay count direction */
+
+@keyframes small {
+    0% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(1);
+    }
+    50% {
+        left:0px; top:0px;
+        transform: rotate(0deg) scale(.5); 
+    }
+    100% {
+        left:-500px; top:0px;
+        transform: rotate(-360deg) scale(.5); 
+    }
+}

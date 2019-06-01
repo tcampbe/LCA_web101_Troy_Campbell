@@ -120,7 +120,8 @@ video {
         display: grid;
         grid-gap: 1em;
         grid-template-areas:
-            'dashboard hair hair'
+            'dashboard squares squares'
+            'hair hair hair'
             'nasa nasa nasa'
             'funvideo code form'
     }
