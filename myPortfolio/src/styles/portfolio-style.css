@@ -120,9 +120,10 @@ video {
         display: grid;
         grid-gap: 1em;
         grid-template-areas:
-            'dashboard squares squares'
             'hair hair hair'
-            'nasa nasa nasa'
+            'nasa nasa squares'            
+            'dashboard dashboard dashboard'
+            'bacon bacon bacon'
             'funvideo code form'
     }
 
@@ -134,6 +135,12 @@ video {
     }
     .nasa {
         grid-area: nasa;
+    }
+    .squares {
+        grid-area: squares;
+    }
+    .bacon {
+        grid-area: bacon;
     }
     .form {
         font-size: 120%;

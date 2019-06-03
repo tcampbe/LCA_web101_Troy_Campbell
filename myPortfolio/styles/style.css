@@ -25,11 +25,19 @@ body {
     color: white
 }
 
+.tada {
+    animation-iteration-count: 2;
+}
+
 #profile-pic {
     width: 23%;
     height: 23%;
     border-radius: 50%;
     margin: 3% auto -3%;
+}
+
+.slideInLeft {
+    animation-iteration-count: 3;
 }
 
 h1 {
@@ -46,7 +54,8 @@ h2 {
 }
 
 .rotateIn {
-
+    font-size: 400%;
+    color: red;
     animation-iteration-count: 6;
     animation-direction: alternate;
     animation-fill-mode: forwards;
