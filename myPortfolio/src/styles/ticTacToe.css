@@ -1,0 +1,33 @@
+main {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+div {
+    height: 20vh;
+    width: 30vw;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 850%;
+}
+
+table, td {
+    border: 13px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 80px;
+    width: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
