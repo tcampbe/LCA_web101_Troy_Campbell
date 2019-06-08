@@ -10,11 +10,10 @@ div {
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 850%;
+
 }
 
-p {
-    font-size: 850%;
-}
 
 table, td {
     border: 13px solid black;
@@ -28,6 +27,12 @@ td {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 20px;
+}
+
+@media (min-width: 500px) {
+    div {
+        height: 30vh;
+    }
 }

@@ -13,23 +13,29 @@
     </head>
     <body>
             <main>
-                <div id="oneone" onclick="myFunction(oneone)"></div>
-                <div id="onetwo" onclick="myFunction(onetwo)"></div>
-                <div id="onethree" onclick="myFunction(onethree)"></div>
-                <div id="twoone" onclick="myFunction(twoone)"></div>
-                <div id="twotwo" onclick="myFunction(twotwo)"></div>
-                <div id="twothree" onclick="myFunction(twothree)"></div>
-                <div id="threeone" onclick="myFunction(threeone)"></div>
-                <div id="threetwo" onclick="myFunction(threetwo)"></div>
-                <div id="threethree" onclick="myFunction(threethree)"></div>
+                <div id="oneone" onclick="mark(this.id)"></div>
+                <div id="onetwo" onclick="mark(this.id)"></div>
+                <div id="onethree" onclick="mark(this.id)"></div>
+                <div id="twoone" onclick="mark(this.id)"></div>
+                <div id="twotwo" onclick="mark(this.id)"></div>
+                <div id="twothree" onclick="mark(this.id)"></div>
+                <div id="threeone" onclick="mark(this.id)"></div>
+                <div id="threetwo" onclick="mark(this.id)"></div>
+                <div id="threethree" onclick="mark(this.id)"></div>
             </main>
             <footer>
-                <button onclick="xmark()">X</button>
+                <button id="xmark" onclick="pick(1)">X</button>
                 <br>
-                <button onclick="omark()">O</button>
+                <p>Refresh to Start New</p>
+                <br>
+                <button id="omark" onclick="pick(0)">O</button>
             </footer>
-        <script type="text/javascript" src="./scripts/ticTacToe.js">
+
+        <script 
+            type="text/javascript" 
+            src="./scripts/ticTacToe.js">
         </script>  
+
     </body>
 
 </html>
