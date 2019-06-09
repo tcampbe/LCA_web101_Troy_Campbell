@@ -124,6 +124,7 @@ video {
             'nasa nasa squares'            
             'dashboard dashboard tictactoe'
             'bacon bacon bacon'
+            'hanoi hanoi hanoi'
             'funvideo code form'
     }
 
@@ -145,6 +146,9 @@ video {
     }
     .bacon {
         grid-area: bacon;
+    }
+    .hanoi {
+        grid-area: hanoi;
     }
     .form {
         font-size: 120%;
