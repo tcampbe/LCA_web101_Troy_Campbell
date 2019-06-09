@@ -182,6 +182,10 @@ body          {
     'todo_three';
 }
 
+#newItemButton {
+  display: none;
+}
+
 .todo_title {
   grid-area: todo_title;
   margin: -1%;

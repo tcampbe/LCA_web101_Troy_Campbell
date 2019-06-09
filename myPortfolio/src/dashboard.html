@@ -85,10 +85,14 @@
                     </div>
                     <div class="card todo"> 
                         <h3 class="todo_title">To Do</h3>
-                        <p class="todo_input">____________________</p>
-                        <p class="todo_one">Complete LCA</p>
-                        <p class="todo_two">Find Gainful Employment</p>
-                        <p class="todo_three">Improve Life</p>
+                        <ul>
+                            <li class="item">Finish LCA</li>
+                        </ul>
+                            <div id="newItemButton"><button href="#">new item</button></div>
+                        <form id="newItemForm">
+                            <input type="text" id="itemField" placeholder="Item" />
+                            <input type="submit" id="add" value="add" />
+                        </form>
                     </div>
                     <div class="card">
                         <h3>Project &nbsp;&nbsp;&nbsp;&nbsp; 
@@ -115,5 +119,7 @@
                 <div class="footer_signature">(;</div>
             </footer>
         </div>
+        <script src="./scripts/jquery-3.4.1.js"></script>
+        <script src="./scripts/dashboard.js"></script>
     </body>
 </html>    
