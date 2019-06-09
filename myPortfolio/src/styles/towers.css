@@ -1,0 +1,56 @@
+/* doat-row is custom atribute with no value used like class here */
+[data-row] {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 4em;
+    margin: 25px;
+    border: 2px solid blanchedalmond;
+  }
+  
+  [data-row].red {
+    background-color: #f75a5a;
+  }
+  
+  [data-row].yellow {
+    background-color: rgb(253, 253, 171);
+  }
+  
+  [data-row].green {
+    background-color: #61f761;
+  }
+  
+  [data-row].blue {
+    background-color: rgb(106, 179, 243);
+  }
+  
+  [data-color] {
+    width: 4em;
+    float: left;
+  }
+  
+  [data-color="blue"] {
+    height: 3.5em;
+    background-color: blue;
+  }
+  
+  [data-color="green"] {
+    height: 3.5em;
+    background-color: green;
+  }
+  
+  [data-color="red"] {
+    height: 3.5em;
+    background-color: firebrick;
+  }
+  
+  [data-color="yellow"] {
+    height: 3.5em;
+    background-color: gold;
+  }
+  
+  #announce-game-won {
+    font-size: 50px;
+    text-align: center;
+  }
+  
