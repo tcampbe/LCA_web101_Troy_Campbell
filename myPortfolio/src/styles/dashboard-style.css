@@ -28,8 +28,7 @@ body          {
 
 .calculator   {
   grid-area: calculator;
-  background-color: #adcde2;
-  background-image: url("../images/stars.jpg");
+  background-color: lightslategray;
   background-repeat: no-repeat;
   max-width: 280px;
   max-height: 50; /* does it need a max height */
@@ -129,6 +128,10 @@ body          {
   border-color: black;
 }
 
+li {
+  list-style: none;
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -191,28 +194,6 @@ body          {
   margin: -1%;
 }
 
-.todo_input {
-  grid-area: todo_input;
-  margin: -1%;
-  border: double;
-  border-color: black;
-}
-
-.todo_one {
-  grid-area: todo_one;
-  margin: -1%;
-}
-
-.todo_two {
-  grid-area: todo_two;
-  margin: -1%;
-}
-
-.todo_three {
-  grid-area: todo_three;
-  margin: -1%;
-}
-
 .footer {
   grid-area: footer;
   display: flex;
@@ -256,15 +237,55 @@ body          {
 }
 
 @media (min-width: 1000px) {
+  .main-header {
+    height: 3em;
+    background-color: lightslategray;
+    color: black;
+  }
+
   .main-overview {
     grid-template-columns: auto auto;
+    grid-auto-rows: 3em;
+  }
+
+  .overviewcard {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(56, 5, 56, 0.5);
+    height: 3em;
   }
 
   .main-cards {
-    column-count: 2;
+    display: grid;
+    grid-template-areas:
+      'one two'
+      'one three'
   }
 
   .card:first-child {
+    grid-area: one;
     background-position: center;
+    height: 10em;
+    font-size: 2rem;
   }
+  
+  .card:nth-child(2) {
+    grid-area: two;
+    height: 9em;
+    width: 90%;
+  }
+  
+  .card:nth-child(3) {
+    grid-area: three;
+    text-decoration: underline;
+    height: 8em;
+    width: 90%;
+  }
+
+
+
+
+
+
 }
