@@ -12,28 +12,31 @@
         <title>learn jquery</title>
     </head>
     <body>
-    
- 
-    
-    
-        <script 
-        type="text/javascript" 
-        src="jquery.js">
-        </script>
-        <script
-        src="https://code.jquery.com/jquery-3.4.0.min.js"
-        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-        crossorigin="anonymous">
-        </script>
-        <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous">
-        </script>
-        <script
-        type="text/javascript" 
-        src="learn-jquery.js">
+        <button onclick="mylocation()">click</button>
+
+        <p id="myloc"></p>
+
+        <script type="text/javascript">
+            var loc = document.getElementById('myloc');
+
+            function mylocation(){
+                if(navigato.geolocation){
+                    navigator.geolocation.getCurrentPosition(showPosition);
+                }else{
+                    loc.innerHTML = "not"
+                }
+                
+            }
+
+            function showPosition(){
+                loc.innerHTML = "Longitude: " + position.coords.longitude +
+                "<br> Latitude: " + position.coords.latitude + "<br>"
+            }
+        
         </script>
 
+
+        <script src="./scripts/jquery-3.4.1.js"></script>
+        <script src="./scripts/learn-jquery.js"></script>
     </body>   
 </html>
