@@ -14,3 +14,8 @@ li {
     padding-bottom: .5%;
     color: navy;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}

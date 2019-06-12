@@ -25,3 +25,8 @@ article {
     margin: 4%;
 }
 
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+

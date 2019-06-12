@@ -1,6 +1,13 @@
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
 main {
     display: flex;
     flex-flow: row wrap;
+    width: 99%;
 }
 
 div {

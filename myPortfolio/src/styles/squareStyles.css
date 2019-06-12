@@ -71,6 +71,11 @@ main {
 }
 /* name duration timing delay count direction */
 
+footer {
+    display: flex;
+    justify-content: space-around;
+}
+
 @keyframes large {
     0% {
         left:0px; top:0px;

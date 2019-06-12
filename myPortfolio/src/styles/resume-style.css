@@ -87,6 +87,11 @@ body {
     clear: both;
   }
 
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
   /* Medium 800-1000px (Tablets) */
   @media (min-width: 801px) and (max-width: 1000px) {
     header {

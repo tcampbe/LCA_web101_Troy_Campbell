@@ -32,3 +32,8 @@
 .is-equals {
     background-color: green;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}

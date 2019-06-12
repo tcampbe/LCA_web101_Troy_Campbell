@@ -48,9 +48,13 @@
     height: 3.5em;
     background-color: gold;
   }
-  
+/* unused but possibly useful in the future */
   #announce-game-won {
     font-size: 50px;
     text-align: center;
   }
   
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }

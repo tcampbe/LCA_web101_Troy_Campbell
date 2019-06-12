@@ -21,3 +21,8 @@ main {
     grid-gap: .5rem;
     padding: 0;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+}
