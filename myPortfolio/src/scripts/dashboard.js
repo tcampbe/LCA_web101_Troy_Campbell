@@ -14,9 +14,23 @@ function displayPosition(position) {
     position.coords.latitude
 }
 
+// the var "myVar" stores setinterval function but doesnt get called because the function contians the output and location
+// set interval method calls a function at a set interval
+var myVar = setInterval(function() { // no parameters, just the base object
+  myTimer(); // references the below function 
+}, 1000); // 1000ms is equal to 1 second, so this updates every second
+
+function myTimer() {
+  var d = new Date(); // .............toLocateTimeString gets the users time
+  document.getElementById("clock").innerHTML = d.toLocaleTimeString();
+} //the parameter "clock" refers to the id in html
 
 
-
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
 
 
 $(function() {
