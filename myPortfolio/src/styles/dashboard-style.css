@@ -82,6 +82,31 @@ body          {
   background: #28D060;
 }
 
+.spinner {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  margin: auto;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: 20vh;
+  width: 20vh;
+}
+
+.spinner img.clicked {
+  animation: go .5s linear .25s 3 normal forwards;
+}
+
+@keyframes go {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(455deg);}
+}
+
 .main {
   grid-area: main;
   background-color: #8fd4d9;

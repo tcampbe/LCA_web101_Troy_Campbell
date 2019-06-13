@@ -35,14 +35,22 @@ $(function() {
     $('input[type="text"]').val(''); // the typed text..//
   });
 
+// onclick of list item remove the list item = 'this' 
+  $list.on('click', 'li', function() {
+    let $this = $(this);
+    $this.remove();
+  });
+
+
+// spin wheel onclick by applying a class 'clicked' with css animation
+  $('.spinner img').on('click', function() {
+    $(this).toggleClass('clicked');
+});
+
+
 
   
-
-
-
-
-  
-  }());
+}());
 
   
  
